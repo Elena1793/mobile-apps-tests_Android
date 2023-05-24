@@ -19,7 +19,7 @@ public class TestBase {
 
 
     protected static ApplicationManager app = new ApplicationManager();
-    public AppCapabilities appCapabilities=new AppCapabilities(DeviceModel.capabilitiesTabletLenovo);
+    public AppCapabilities appCapabilities=new AppCapabilities(DeviceModel.capabilitiesXiaomiRedmi10);
 
 
    @BeforeSuite

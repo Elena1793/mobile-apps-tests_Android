@@ -22,6 +22,7 @@ public class AppConfigCapabilities {
         try (BufferedReader br = new BufferedReader(new FileReader(pathFileConfig))) {
             String line;
             while ((line = br.readLine()) != null) {
+               // StringUtils
                 if (line.contains("platformName:")) {
                     this.platformName = line.split(":")[1];
                 } else if (line.contains("deviceName:")) {
